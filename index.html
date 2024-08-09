@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="main-heading">
+                <h1>DevDetective</h1>
+                <button class="mode-btn">
+                    <div class="light">LIGHT <i class="fa fa-sun-o" aria-hidden="true"></i></div>
+                    <div class="dark">DARK <i class="fa fa-moon-o" aria-hidden="true"></i></div>
+                </button>
+            </div>
+    
+            <form class="search-bar">
+                <input type="text" class="search-feild" placeholder="Enter a Github Username....." >
+                <i class="fas fa-search" style="color: #7a3edbc7;"></i>
+                <button type="submit" class="search-btn">Search</button>
+                <div class="not-found"><p>No Data Found</p></div>
+            </form>
+    
+            <div class="user-info-container">
+                <div class="personal-details">
+                    <div class="basic-details">
+                        <img class="photu" height="120px" width="120px" src="" />
+                        <div class="naam-detals">
+                            <p class="name"></p>
+                            <a href="" class="user-id"></a>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="date-of-join"></p>
+                    </div>
+                </div>
+    
+                <p class="bio"></p>
+    
+                <div class="social-interaction">
+                    <div class="social">
+                        <p>Repos</p>
+                        <p id="rep"></p>
+                    </div>
+                    <div class="social">
+                        <p>Followers</p>
+                        <p id="follower"></p>
+                    </div>
+                    <div class="social">
+                        <p>Following</p>
+                        <p id="following"></p>
+                    </div>
+                </div>
+    
+                <div class="footer">
+                    <div class="info">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p id="location"></p>
+                    </div>
+                    <div class="info">
+                        <i class="fa-solid fa-link"></i>
+                        <p id="link"></p>
+                    </div>
+                    <div class="info">
+                        <i class="fa-brands fa-twitter"></i>
+                        <p id="twitter"></p>
+                    </div>
+                    <div class="info">
+                        <i class="fa-solid fa-building"></i>
+                        <p id="organisation"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
