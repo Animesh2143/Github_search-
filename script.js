@@ -6,7 +6,7 @@ const notFound= document.querySelector(".not-found");
 
 let currentMode="light";
 light.classList.add("active");
-searchGithub("lovebabbar");
+searchGithub("Animesh2143");
 
 modeButton.addEventListener("click", () => {
     changeMode();
